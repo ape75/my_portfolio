@@ -12,7 +12,7 @@
     "@mantine/core": "^8.3.18",
     "@mantine/form": "^9.1.0",
     "@mantine/hooks": "^8.3.18",
-    "@mantine/notifications": "^9.1.0",
+    "@mantine/notifications": "^8.3.18",
     "@tabler/icons-react": "^3.40.0",
     "@tailwindcss/postcss": "^4.2.2",
     "embla-carousel": "^8.6.0",
