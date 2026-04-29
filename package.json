@@ -1,0 +1,61 @@
+{
+  "name": "my_portfolio",
+  "homepage": "https://ape75.github.io/my_portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.3.0",
+    "@emailjs/browser": "^4.4.1",
+    "@heroui/react": "^3.0.1",
+    "@mantine/carousel": "^8.3.18",
+    "@mantine/core": "^8.3.18",
+    "@mantine/form": "^9.1.0",
+    "@mantine/hooks": "^8.3.18",
+    "@mantine/notifications": "^9.1.0",
+    "@tabler/icons-react": "^3.40.0",
+    "@tailwindcss/postcss": "^4.2.2",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "font-awesome": "^4.7.0",
+    "framer-motion": "^12.38.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-google-recaptcha": "^3.1.0",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^7.10.1",
+    "react-scripts": "^5.0.1",
+    "react-type-animation": "^3.2.0",
+    "tailwindcss": "^4.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.8",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}
