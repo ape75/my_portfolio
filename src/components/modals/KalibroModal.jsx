@@ -7,11 +7,11 @@ import icons from '../../constants/icons';
 
 
 const KalibroImages = [
-        "/assets/img/kalibro_main.png",
-        "/assets/img/kalibro_1.png",
-        "/assets/img/kalibro_2.png",
-        "/assets/img/kalibro_3.png",
-        "/assets/img/kalibro_4.png"
+        "/my_portfolio/assets/img/kalibro_main.png",
+        "/my_portfolio/assets/img/kalibro_1.png",
+        "/my_portfolio/assets/img/kalibro_2.png",
+        "/my_portfolio/assets/img/kalibro_3.png",
+        "/my_portfolio/assets/img/kalibro_4.png"
     ];  
 
 

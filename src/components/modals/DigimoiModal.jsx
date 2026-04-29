@@ -7,11 +7,11 @@ import icons from '../../constants/icons';
 
 
 const DigimoiImages = [
-  "/assets/img/digimoi_main.png",
-  "/assets/img/digimoi_1.png",
-  "/assets/img/digimoi_2.png",
-  "/assets/img/digimoi_3.png",
-  "/assets/img/digimoi_4.png"
+  "/my_portfolio/assets/img/digimoi_main.png",
+  "/my_portfolio/assets/img/digimoi_1.png",
+  "/my_portfolio/assets/img/digimoi_2.png",
+  "/my_portfolio/assets/img/digimoi_3.png",
+  "/my_portfolio/assets/img/digimoi_4.png"
 ];
 
 function DigimoiModal({ modalProps, stack }) {

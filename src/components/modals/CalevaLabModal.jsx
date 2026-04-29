@@ -7,13 +7,13 @@ import icons from '../../constants/icons';
 import PolarLogo from '../PolarLogo';
 
 const CalevalaLabImages = [
-    "/assets/img/calevalab_main.png",
-    "/assets/img/calevalab_1.png",
-    "/assets/img/calevalab_2.png",
-    "/assets/img/calevalab_3.png",
-    "/assets/img/calevalab_4.png",
-    "/assets/img/calevalab_5.png",
-    "/assets/img/calevalab_6.png"
+    "/my_portfolio/assets/img/calevalab_main.png",
+    "/my_portfolio/assets/img/calevalab_1.png",
+    "/my_portfolio/assets/img/calevalab_2.png",
+    "/my_portfolio/assets/img/calevalab_3.png",
+    "/my_portfolio/assets/img/calevalab_4.png",
+    "/my_portfolio/assets/img/calevalab_5.png",
+    "/my_portfolio/assets/img/calevalab_6.png"
 ];
 
 function CalevaLabModal({ modalProps, stack }) {

@@ -6,11 +6,11 @@ import gradients from '../../constants/gradients';
 import icons from '../../constants/icons';
 
 const SportExperienceImages = [
-  "/assets/img/360sports_main.png",
-  "/assets/img/360sports_1.png",
-  "/assets/img/360sports_2.png",
-  "/assets/img/360sports_3.png",
-  "/assets/img/360sports_4.png"
+  "/my_portfolio/assets/img/360sports_main.png",
+  "/my_portfolio/assets/img/360sports_1.png",
+  "/my_portfolio/assets/img/360sports_2.png",
+  "/my_portfolio/assets/img/360sports_3.png",
+  "/my_portfolio/assets/img/360sports_4.png"
 ];
 
 function SportModal({ modalProps, stack }) {

@@ -57,7 +57,7 @@ const MainContent = () => {
                     <div className='introduction-main-header-container'>
                         <div className="introduction-main-header-container-left">
                             <div className="profile-picture-container">
-                                <img src="/assets/img/profile_pic.jpg" alt="profile-picture" className="profile-picture" />
+                                <img src="/my_portfolio/assets/img/profile_pic.jpg" alt="profile-picture" className="profile-picture" />
                             </div>
                             <Text size="m">
                                 I'm a software developer based in Finland with a BBA in IT. 
@@ -110,7 +110,7 @@ const MainContent = () => {
                                 style={{ backgroundColor: '#ffffff' }}
                             >
                                 <Image 
-                                src="/assets/img/calevala_logo.png" 
+                                src="/my_portfolio/assets/img/calevala_logo.png" 
                                 alt="Calevala"
                                 style={{ 
                                     width: 40,
@@ -151,7 +151,7 @@ const MainContent = () => {
                                 style={{ backgroundColor: '#ffffff' }}
                             >
                                 <Image 
-                                src="/assets/img/pok_logo.png" 
+                                src="/my_portfolio/assets/img/pok_logo.png" 
                                 alt="Calevala"
                                 style={{ 
                                     width: 56,
@@ -184,7 +184,7 @@ const MainContent = () => {
             <div className='project-container'>
                 <ProjectCard
                     headerText={"360Sport Experience"}
-                    imageUrl={"assets/img/360sports_main.png"}
+                    imageUrl={"/my_portfolio/assets/img/360sports_main.png"}
                     mainText={"Web-based application for analyzing and visualizing match data for athletes and teams."}
                     badgeText={"Sport Analysis"}
                     badgeColor={gradients.orange}
@@ -196,7 +196,7 @@ const MainContent = () => {
                 /> 
                 <ProjectCard
                     headerText={"Digimoi"}
-                    imageUrl={"assets/img/digimoi_main.png"}
+                    imageUrl={"/my_portfolio/assets/img/digimoi_main.png"}
                     mainText={"Web-based tool for citizen engagement and visual feedback collection for public sector organizations and companies."}
                     badgeText={"Citizen Engagement"}
                     badgeColor={gradients.orange}
@@ -208,7 +208,7 @@ const MainContent = () => {
                 />    
                 <ProjectCard
                     headerText={"CalevaLAB"}
-                    imageUrl={"assets/img/calevalab_main.png"}
+                    imageUrl={"/my_portfolio/assets/img/calevalab_main.png"}
                     mainText={"Web application for managing and visualizing training data for athletes, coaches and club managers."}
                     badgeText={"Athlete Development"}
                     badgeColor={gradients.orange}
@@ -220,7 +220,7 @@ const MainContent = () => {
                 />    
                 <ProjectCard
                     headerText={"Kalibro"}
-                    imageUrl={"assets/img/kalibro_main.png"}
+                    imageUrl={"/my_portfolio/assets/img/kalibro_main.png"}
                     mainText={"Advanced web auditing platform built for modern businesses to analyze, compare and elevate their websites."}
                     badgeText={"Website Analysis/Audit"}
                     badgeColor={gradients.orange}
