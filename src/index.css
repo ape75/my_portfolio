@@ -23,8 +23,7 @@
   --text-muted: #6b6b6b;
   
   /* Accent Colors */
-  /* --accent-primary: #3b82f6; */
-  --accent-primary: #8b5cf6;
+  --accent-primary: #3b82f6;
   --accent-primary-hover: #2563eb;
   --accent-success: #10b981;
   --accent-warning: #f59e0b;
@@ -313,6 +312,8 @@ body {
 
 .work-experience-container {
   margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .project-main-header {
@@ -326,6 +327,8 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .project-card {
@@ -385,6 +388,8 @@ body {
   flex-direction: row;
   align-items: center;
   margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .contact-form-header {
