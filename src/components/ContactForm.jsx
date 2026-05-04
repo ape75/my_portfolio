@@ -102,7 +102,7 @@ function ContactForm() {
   };
 
   return (
-    <Paper p="xl" radius="md" bg="var(--bg-tertiary)" withBorder>
+    <Paper className='contact-form-container' p="xl" radius="md" bg="var(--bg-tertiary)" withBorder>
       <div style={{display:'flex',flexDirection:'row', justifyContent:'center', alignItems:'center', marginBottom:'10px'}}>
         <LuMessageCircleMore size={36} style={{marginRight:'5px'}} />
         <Title order={2} ta="center">Get in Touch</Title>

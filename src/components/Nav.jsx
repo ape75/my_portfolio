@@ -5,7 +5,7 @@ const Nav = () => {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      const navHeight = 80; // Reduced from 140 since mobile menu is different
+      const navHeight = 110; // Reduced from 140 since mobile menu is different
       const elementPosition = section.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.scrollY - navHeight;
       

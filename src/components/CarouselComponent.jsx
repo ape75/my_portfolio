@@ -1,5 +1,6 @@
 import { Carousel } from '@mantine/carousel';
-import { Image, Box } from '@mantine/core';
+import { Box } from '@mantine/core';
+import ExpandableImage from './ExpandableImage';
 
 const CarouselComponent = ({ imageArray, projectName }) => {
   return (
@@ -31,16 +32,10 @@ const CarouselComponent = ({ imageArray, projectName }) => {
               alignItems: 'center',
             }}
           >
-            <Image 
+            <ExpandableImage 
               src={src} 
               alt={`${projectName} details ${index + 1}`}
-              style={{
-                maxWidth: 'calc(100% - 140px)',
-                maxHeight: '100%',
-                width: 'auto',
-                height: 'auto',
-                objectFit: 'contain',
-              }}
+              maxHeight={300}
             />
           </Box>
         </Carousel.Slide>

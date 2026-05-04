@@ -387,6 +387,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
   margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -546,10 +547,22 @@ body {
   .Nav {
     padding: 0.75rem 1rem !important;
     justify-content: flex-start;
-  }  
+  } 
+  
+.introduction-paper-text {
+  font-size: 12px !important;  
+}
 
   .work-experience-responsibilities-container {
-    width: 80%;
+    width: 100%;
+  }
+
+  .contact-container {
+    justify-content: center;
+  }
+
+  .contact-form-container {
+    width: 100%;
   }
 
   .footer-left-section {

@@ -71,12 +71,12 @@ const MainContent = () => {
                     <SimpleGrid cols={3} spacing="md">
                         <Paper p="md" radius="md" bg="var(--bg-secondary)" ta="center" withBorder>
                             <Text size="xl" fw={700} c="var(--accent-primary)">3+</Text>
-                            <Text size="sm" c="dimmed">Years of Experience</Text>
+                            <Text className='introduction-paper-text' size="sm" c="dimmed">Years of Experience</Text>
                         </Paper>
                         
                         <Paper p="md" radius="md" bg="var(--bg-secondary)" ta="center" withBorder>
                             <Text size="xl" fw={700} c="var(--accent-primary)">15+</Text>
-                            <Text size="sm" c="dimmed">Projects (Personal & Professional)</Text>
+                            <Text className='introduction-paper-text' size="sm" c="dimmed">Projects (Personal & Professional)</Text>
                         </Paper>                    
                         <Paper p="md" radius="md" bg="var(--bg-secondary)" ta="center" withBorder>
                             <Text 
@@ -90,7 +90,7 @@ const MainContent = () => {
                             >
                                 ∞
                             </Text>
-                            <Text size="sm" c="dimmed">Always Learning</Text>
+                            <Text className='introduction-paper-text' size="sm" c="dimmed">Always Learning</Text>
                         </Paper>
                     </SimpleGrid>                                   
                 </Paper>                      
