@@ -581,3 +581,19 @@ body {
     display: none;
   }
 }
+
+/* Make reCAPTCHA responsive on mobile */
+@media (max-width: 480px) {
+  .recaptcha-container {
+    transform: scale(0.85);
+    transform-origin: left center;
+  }
+}
+
+/* For very small screens */
+@media (max-width: 380px) {
+  .recaptcha-container {
+    transform: scale(0.80);
+    transform-origin: left center;
+  }
+}

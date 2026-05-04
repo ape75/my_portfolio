@@ -133,7 +133,7 @@ function ContactForm() {
           />
           
           {/* reCAPTCHA component */}
-          <div style={{ display: 'flex', justifyContent: 'left', margin: '1rem 0'}}>
+          <div className="recaptcha-container" style={{ display: 'flex', justifyContent: 'left', margin: '1rem 0'}}>
             <ReCAPTCHA
               ref={recaptchaRef}
               sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
